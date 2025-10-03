@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Figma - Hero Section (Converted)</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="logo" href="#">Infotech<span>Wizard</span></a>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a class="btn-primary" href="#">Get Started</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-left">
+        <h1 class="hero-title">Design-forward interfaces that convert</h1>
+        <p class="hero-sub">Pixel-perfect conversion from Figma to modern responsive HTML/CSS. Clean, maintainable, and well-commented code.</p>
+        <div class="hero-ctas">
+          <a class="btn-primary" href="#">Start Free</a>
+          <a class="btn-secondary" href="#">View Demo</a>
+        </div>
+        <ul class="stats">
+          <li><strong>1.2K+</strong><span>Users</span></li>
+          <li><strong>24</strong><span>Integrations</span></li>
+          <li><strong>99%</strong><span>Satisfaction</span></li>
+        </ul>
+      </div>
+      <div class="hero-right" role="img" aria-label="Hero illustration">
+        <!-- Placeholder decorative card to mimic Figma artboard -->
+        <div class="hero-card">
+          <div class="card-top">
+            <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+          </div>
+          <div class="card-body">
+            <h3>Product Dashboard</h3>
+            <p>Snapshot view of metrics and KPIs</p>
+            <div class="card-metrics">
+              <div><strong>82%</strong><small>Engagement</small></div>
+              <div><strong>1.4K</strong><small>Active</small></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features container">
+      <h2 class="section-title">What's included</h2>
+      <p class="section-desc">A simple, responsive component set you can reuse across the site.</p>
+      <div class="feature-grid">
+        <article class="feature">
+          <h3>Pixel-perfect</h3>
+          <p>We match sizes, spacing, and typography exactly when assets are provided.</p>
+        </article>
+        <article class="feature">
+          <h3>Responsive</h3>
+          <p>Fluid layout that adapts from mobile to large desktop screens.</p>
+        </article>
+        <article class="feature">
+          <h3>Accessible</h3>
+          <p>Semantic HTML and keyboard-friendly interactions.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Infotech Wizard — Frontend Assignment</p>
+    </div>
+  </footer>
+
+<script>
+// Simple nav toggle for small screens
+document.addEventListener('DOMContentLoaded', function(){
+  const btn = document.querySelector('.nav-toggle');
+  const nav = document.querySelector('.nav-links');
+  btn.addEventListener('click', ()=> nav.classList.toggle('open'));
+});
+</script>
+</body>
+</html>
